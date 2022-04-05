@@ -97,28 +97,32 @@
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
                         android:textColor="#FFFFFF"
-                        android:text="@string/_1899"/>
+                        android:text="@string/_1899"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
                         android:textColor="#FFFFFF"
-                        android:text="@string/_1900"/>
+                        android:text="@string/_1900"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
                         android:textColor="#FFFFFF"
-                        android:text="@string/_1901"/>
+                        android:text="@string/_1901"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
                         android:textColor="#FFFFFF"
-                        android:text="@string/_1902"/>
+                        android:text="@string/_1902"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                 </RadioGroup>
 
