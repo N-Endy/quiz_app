@@ -15,4 +15,10 @@
     <string name="neymar_jr">Neymar Jr</string>
     <string name="quiz_3">Quiz 3</string>
     <string name="question_3">FC Barcelona plays in one of the most prestigious and biggest stadiums in Europe. What is the name of this stadium?</string>
+    <string name="question_4">FC Barcelona has had great coaches lead them in the past. Which of the below coaches have never managed FC Barcelona?</string>
+    <string name="luis_arragones">Luis Arragones</string>
+    <string name="pep_guardiola">Pep Guardiola</string>
+    <string name="luiz_enrique">Luiz Enrique</string>
+    <string name="jose_mourinho">Jose Mourinho</string>
+    <string name="quiz_4">Quiz 4</string>
 </resources>
