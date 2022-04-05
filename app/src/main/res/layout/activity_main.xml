@@ -133,6 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F5F5F5"
+                android:layout_marginBottom="32dp"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -227,7 +228,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name of Stadium"
-                    android:textColor="#FFFFFF" />
+                    android:textColorHint="#FFFFFF" />
 
             </LinearLayout>
 
