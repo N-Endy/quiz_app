@@ -2,6 +2,8 @@
     <string name="app_name">Quiz App</string>
     <string name="header_title">Barcelona Quiz App</string>
     <string name="question1">When was FC Barcelona founded?</string>
+    <string name="question2">Many great players have played for FC Barcelona. Which of the following
+    players formed part of the great "MSN" front three</string>
     <string name="_1899">1899</string>
     <string name="_1900">1900</string>
     <string name="_1901">1901</string>

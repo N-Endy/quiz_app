@@ -147,39 +147,41 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/question1"
+                    android:text="@string/question2"
+                    android:textColor="#000000"
                     android:layout_marginBottom="12dp"/>
 
-                <RadioGroup
+                <CheckBox
+                    android:id="@+id/messi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:text="Lionel Messi"
+                    android:paddingStart="8dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
 
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:text="@string/_1899"/>
+                <CheckBox
+                    android:id="@+id/xavi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xavi Hernandez"
+                    android:paddingStart="8dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
 
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:text="@string/_1900"/>
+                <CheckBox
+                    android:id="@+id/neymar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neymar Jr"
+                    android:paddingStart="8dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
 
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:text="@string/_1901"/>
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:text="@string/_1902"/>
-
-                </RadioGroup>
+                <CheckBox
+                    android:id="@+id/suarez"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luiz Suarez"
+                    android:paddingStart="8dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
 
             </LinearLayout>
 
