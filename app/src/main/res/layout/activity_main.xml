@@ -41,7 +41,7 @@
                 android:layout_marginLeft="32dp"
                 android:textColor="#FFFFFF"
                 android:layout_height="wrap_content"
-                android:text="Barcelona Quiz App"
+                android:text="@string/header_title"
                 android:textSize="32sp"/>
 
         </LinearLayout>
