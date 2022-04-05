@@ -96,6 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/_1899"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -104,6 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/_1900"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -112,6 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/_1901"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -120,6 +123,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/_1902"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -164,6 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/lionel_messi"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -172,6 +177,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/xavi_hernandez"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -180,6 +186,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/neymar_jr"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -188,7 +195,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
-                    android:text="Luiz Suarez"
+                    android:paddingEnd="0dp"
+                    android:text="@string/luiz_suarez"
                     android:textAppearance="?android:textAppearanceMedium" />
 
             </LinearLayout>
@@ -227,10 +235,11 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Name of Stadium"
+                    android:hint="@string/name_of_stadium"
                     android:inputType="textCapWords"
                     android:textColor="#FFFFFF"
-                    android:textColorHint="#92C541" />
+                    android:textColorHint="#92C541"
+                    android:autofillHints="The new camp" />
 
             </LinearLayout>
 
@@ -270,6 +279,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/luis_arragones"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -278,6 +288,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/pep_guardiola"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -286,6 +297,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/luiz_enrique"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -294,6 +306,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="8dp"
+                    android:paddingEnd="0dp"
                     android:text="@string/jose_mourinho"
                     android:textAppearance="?android:textAppearanceMedium" />
 
@@ -338,6 +351,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/tata_martino"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -346,6 +360,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/johan_cruff"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -354,6 +369,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/thomas_tuchel"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />
@@ -362,6 +378,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingStart="8dp"
+                        android:paddingEnd="0dp"
                         android:text="@string/pep_guardiola"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="#FFFFFF" />

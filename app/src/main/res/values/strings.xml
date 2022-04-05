@@ -26,4 +26,6 @@
     <string name="johan_cruff">Johan Cruff</string>
     <string name="thomas_tuchel">Thomas Tuchel</string>
     <string name="tata_martino">Tata Martino</string>
+    <string name="luiz_suarez">Luiz Suarez</string>
+    <string name="name_of_stadium">Name of Stadium</string>
 </resources>
