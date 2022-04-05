@@ -299,6 +299,77 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/question_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#343434"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/quiz_5"
+                    android:textColor="#FFFFFF" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#989393" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/question_5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/tata_martino"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/johan_cruff"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/thomas_tuchel"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/pep_guardiola"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#FFFFFF" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
