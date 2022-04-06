@@ -236,6 +236,7 @@
                     style="@style/layout_textview"/>
 
                 <RadioGroup
+                    android:id="@+id/questionFive_radioGroup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -253,6 +254,7 @@
                         style="@style/radio_button" />
 
                     <RadioButton
+                        android:id="@+id/guardiola"
                         android:text="@string/pep_guardiola"
                         style="@style/radio_button" />
 

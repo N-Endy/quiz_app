@@ -81,6 +81,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Question Five Method
+     */
+    public void questionFive() {
+        RadioGroup radioGroup = findViewById(R.id.questionFive_radioGroup);
+        RadioButton radioButton = findViewById(R.id.guardiola);
+        if (radioGroup.getCheckedRadioButtonId() == -1) {
+            Toast.makeText(this,"Please select an option for question 5",Toast.LENGTH_SHORT).show();
+        } else if (radioButton.isChecked()) {
+            totalCorrectAnswer += 1;
+        }
+    }
+
 
     /**
      * Submit Button Method
@@ -91,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         questionTwo();
         questionThree();
         questionFour();
+        questionFive();
         Log.i("Main Activity", "submitButton: " + totalCorrectAnswer);
         Toast.makeText(this,"You scored " + totalCorrectAnswer + " out of 5",Toast.LENGTH_SHORT).show();
     }
