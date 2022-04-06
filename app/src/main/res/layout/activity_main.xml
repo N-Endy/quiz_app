@@ -126,39 +126,23 @@
 
                 <CheckBox
                     android:id="@+id/messi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/lionel_messi"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/xavi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/xavi_hernandez"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/neymar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/neymar_jr"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/suarez"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/luiz_suarez"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
             </LinearLayout>
 
