@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (!messi.isChecked() && !neymar.isChecked() && !suarez.isChecked() && !xavi.isChecked()) {
             Toast.makeText(this,"Please select an option for question 2",Toast.LENGTH_SHORT).show();
-        } else if (messi.isChecked() && suarez.isChecked() && neymar.isChecked()) {
+        } else if (messi.isChecked() && suarez.isChecked() && neymar.isChecked() && !xavi.isChecked()) {
             totalCorrectAnswer += 1;
         }
     }
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (!arragones.isChecked() && !pep.isChecked() && !enrique.isChecked() && !jose.isChecked()) {
             Toast.makeText(this,"Please select an option for question 4",Toast.LENGTH_SHORT).show();
-        } else if (arragones.isChecked() && jose.isChecked()) {
+        } else if (arragones.isChecked() && jose.isChecked() && !pep.isChecked() && !enrique.isChecked()) {
             totalCorrectAnswer += 1;
         }
     }
