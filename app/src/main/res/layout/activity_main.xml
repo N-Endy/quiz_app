@@ -248,40 +248,20 @@
                     android:orientation="vertical">
 
                     <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="0dp"
                         android:text="@string/tata_martino"
-                        android:textAppearance="?android:textAppearanceMedium"
-                        android:textColor="#FFFFFF" />
+                        style="@style/radio_button" />
 
                     <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="0dp"
                         android:text="@string/johan_cruff"
-                        android:textAppearance="?android:textAppearanceMedium"
-                        android:textColor="#FFFFFF" />
+                        style="@style/radio_button" />
 
                     <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="0dp"
                         android:text="@string/thomas_tuchel"
-                        android:textAppearance="?android:textAppearanceMedium"
-                        android:textColor="#FFFFFF" />
+                        style="@style/radio_button" />
 
                     <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="8dp"
-                        android:paddingEnd="0dp"
                         android:text="@string/pep_guardiola"
-                        android:textAppearance="?android:textAppearanceMedium"
-                        android:textColor="#FFFFFF" />
+                        style="@style/radio_button" />
 
                 </RadioGroup>
 
