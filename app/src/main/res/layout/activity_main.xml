@@ -77,11 +77,13 @@
                     style="@style/layout_textview"/>
 
                 <RadioGroup
+                    android:id="@+id/questionOne_radioGroup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <RadioButton
+                        android:id="@+id/eighteen_ninety_nine"
                         android:text="@string/_1899"
                         style="@style/radio_button" />
 
@@ -262,7 +264,8 @@
                 android:layout_height="64dp"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:text="Submit"/>
+                android:text="Submit"
+                android:onClick="submitButton"/>
 
 
         </LinearLayout>
