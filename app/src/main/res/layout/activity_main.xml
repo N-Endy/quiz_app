@@ -257,6 +257,13 @@
 
             </LinearLayout>
 
+            <Button
+                android:layout_width="106dp"
+                android:layout_height="64dp"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:text="Submit"/>
+
 
         </LinearLayout>
 
