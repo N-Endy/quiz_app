@@ -63,11 +63,9 @@
                 style="@style/layout_styling">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
                     android:text="@string/quiz_1"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    style="@style/quiz_number"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -131,11 +129,9 @@
                 style="@style/layout_styling">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
                     android:text="@string/quiz_2"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    style="@style/quiz_number"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -192,11 +188,9 @@
                 style="@style/layout_styling">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
                     android:text="@string/quiz_3"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    style="@style/quiz_number"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -226,11 +220,9 @@
                 style="@style/layout_styling">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
                     android:text="@string/quiz_4"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    style="@style/quiz_number"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -287,11 +279,9 @@
                 style="@style/layout_styling">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
                     android:text="@string/quiz_5"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="#FFFFFF"
+                    style="@style/quiz_number"/>
 
                 <View
                     android:layout_width="match_parent"
