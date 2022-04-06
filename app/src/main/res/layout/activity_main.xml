@@ -195,22 +195,22 @@
                     android:textColor="#000000" />
 
                 <CheckBox
-                    android:id="@+id/arragones"
+                    android:id="@+id/question4_option1_arragones"
                     style="@style/checkbox_style"
                     android:text="@string/luis_arragones" />
 
                 <CheckBox
-                    android:id="@+id/pep"
+                    android:id="@+id/question4_option2_pep"
                     style="@style/checkbox_style"
                     android:text="@string/pep_guardiola" />
 
                 <CheckBox
-                    android:id="@+id/enrique"
+                    android:id="@+id/question4_option3_enrique"
                     style="@style/checkbox_style"
                     android:text="@string/luiz_enrique" />
 
                 <CheckBox
-                    android:id="@+id/jose"
+                    android:id="@+id/question4_option4_jose"
                     style="@style/checkbox_style"
                     android:text="@string/jose_mourinho" />
 
