@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,6 +52,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Question 3 Method
+     */
+    public  void questionThree() {
+        EditText editText = findViewById(R.id.edit_text_view);
+        String answer = editText.getText().toString().toLowerCase(Locale.ROOT);
+        if (answer.matches("")) {
+            Toast.makeText(this,"Please write an answer for question 3",Toast.LENGTH_SHORT).show();
+        } else if (answer.matches("camp nou")) {
+            totalCorrectAnswer += 1;
+        }
+    }
+
 
     /**
      * Submit Button Method
@@ -57,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public void submitButton(View view) {
         questionOne();
         questionTwo();
+        questionThree();
         Log.i("Main Activity", "submitButton: " + totalCorrectAnswer);
         Toast.makeText(this,"You scored " + totalCorrectAnswer + " out of 5",Toast.LENGTH_SHORT).show();
     }
