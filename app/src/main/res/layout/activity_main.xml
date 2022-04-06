@@ -145,6 +145,7 @@
 
                 <TextView
                     android:text="@string/question2"
+                    android:textColor="#000000"
                     style="@style/layout_textview"/>
 
                 <CheckBox
