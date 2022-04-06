@@ -107,5 +107,9 @@ public class MainActivity extends AppCompatActivity {
         questionFive();
         Log.i("Main Activity", "submitButton: " + totalCorrectAnswer);
         Toast.makeText(this,"You scored " + totalCorrectAnswer + " out of 5",Toast.LENGTH_SHORT).show();
+        finish();
+        overridePendingTransition(0, 0);
+        startActivity(getIntent());
+        overridePendingTransition(0, 0);
     }
 }
