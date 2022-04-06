@@ -201,39 +201,23 @@
 
                 <CheckBox
                     android:id="@+id/arragones"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/luis_arragones"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/pep"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/pep_guardiola"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/enrique"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/luiz_enrique"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
                 <CheckBox
                     android:id="@+id/jose"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="0dp"
                     android:text="@string/jose_mourinho"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    style="@style/checkbox_style" />
 
             </LinearLayout>
 
