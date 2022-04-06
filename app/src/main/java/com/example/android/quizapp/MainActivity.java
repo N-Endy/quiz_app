@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void questionOne() {
         RadioGroup radioGroup = findViewById(R.id.questionOne_radioGroup);
-        RadioButton radioButton = findViewById(R.id.eighteen_ninety_nine);
+        RadioButton radioButton = findViewById(R.id.option_one_1899);
         if (radioGroup.getCheckedRadioButtonId() == -1) {
             Toast.makeText(this,"Please select an option for question 1",Toast.LENGTH_SHORT).show();
         } else if (radioButton.isChecked()) {
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
             totalCorrectAnswer += 1;
         }
     }
-
 
     /**
      * Submit Button Method

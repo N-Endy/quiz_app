@@ -83,7 +83,7 @@
                     android:orientation="vertical">
 
                     <RadioButton
-                        android:id="@+id/eighteen_ninety_nine"
+                        android:id="@+id/option_one_1899"
                         style="@style/radio_button"
                         android:text="@string/_1899" />
 
