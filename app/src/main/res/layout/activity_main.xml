@@ -59,22 +59,22 @@
 
             <LinearLayout
                 android:id="@+id/question_1"
-                android:background="#343434"
-                style="@style/layout_styling">
+                style="@style/layout_styling"
+                android:background="#343434">
 
                 <TextView
+                    style="@style/quiz_number"
                     android:text="@string/quiz_1"
-                    android:textColor="#FFFFFF"
-                    style="@style/quiz_number"/>
+                    android:textColor="#FFFFFF" />
 
                 <View
                     style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
+                    style="@style/layout_textview"
                     android:text="@string/question1"
-                    android:textColor="#FFFFFF"
-                    style="@style/layout_textview"/>
+                    android:textColor="#FFFFFF" />
 
                 <RadioGroup
                     android:id="@+id/questionOne_radioGroup"
@@ -84,20 +84,20 @@
 
                     <RadioButton
                         android:id="@+id/eighteen_ninety_nine"
-                        android:text="@string/_1899"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/_1899" />
 
                     <RadioButton
-                        android:text="@string/_1900"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/_1900" />
 
                     <RadioButton
-                        android:text="@string/_1901"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/_1901" />
 
                     <RadioButton
-                        android:text="@string/_1902"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/_1902" />
 
                 </RadioGroup>
 
@@ -105,63 +105,63 @@
 
             <LinearLayout
                 android:id="@+id/question_2"
-                android:background="#F5F5F5"
-                style="@style/layout_styling">
+                style="@style/layout_styling"
+                android:background="#F5F5F5">
 
                 <TextView
+                    style="@style/quiz_number"
                     android:text="@string/quiz_2"
-                    android:textColor="#000000"
-                    style="@style/quiz_number"/>
+                    android:textColor="#000000" />
 
                 <View
                     style="@style/view_style"
                     android:background="#343434" />
 
                 <TextView
+                    style="@style/layout_textview"
                     android:text="@string/question2"
-                    android:textColor="#000000"
-                    style="@style/layout_textview"/>
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/messi"
-                    android:text="@string/lionel_messi"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/lionel_messi" />
 
                 <CheckBox
                     android:id="@+id/xavi"
-                    android:text="@string/xavi_hernandez"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/xavi_hernandez" />
 
                 <CheckBox
                     android:id="@+id/neymar"
-                    android:text="@string/neymar_jr"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/neymar_jr" />
 
                 <CheckBox
                     android:id="@+id/suarez"
-                    android:text="@string/luiz_suarez"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/luiz_suarez" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/question_3"
-                android:background="#343434"
-                style="@style/layout_styling">
+                style="@style/layout_styling"
+                android:background="#343434">
 
                 <TextView
+                    style="@style/quiz_number"
                     android:text="@string/quiz_3"
-                    android:textColor="#FFFFFF"
-                    style="@style/quiz_number"/>
+                    android:textColor="#FFFFFF" />
 
                 <View
                     style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
+                    style="@style/layout_textview"
                     android:text="@string/question_3"
-                    android:textColor="#FFFFFF"
-                    style="@style/layout_textview"/>
+                    android:textColor="#FFFFFF" />
 
                 <EditText
                     android:id="@+id/edit_text_view"
@@ -177,63 +177,63 @@
 
             <LinearLayout
                 android:id="@+id/question_4"
-                android:background="#F5F5F5"
-                style="@style/layout_styling">
+                style="@style/layout_styling"
+                android:background="#F5F5F5">
 
                 <TextView
+                    style="@style/quiz_number"
                     android:text="@string/quiz_4"
-                    android:textColor="#000000"
-                    style="@style/quiz_number"/>
+                    android:textColor="#000000" />
 
                 <View
                     style="@style/view_style"
                     android:background="#343434" />
 
                 <TextView
+                    style="@style/layout_textview"
                     android:text="@string/question_4"
-                    android:textColor="#000000"
-                    style="@style/layout_textview"/>
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/arragones"
-                    android:text="@string/luis_arragones"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/luis_arragones" />
 
                 <CheckBox
                     android:id="@+id/pep"
-                    android:text="@string/pep_guardiola"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/pep_guardiola" />
 
                 <CheckBox
                     android:id="@+id/enrique"
-                    android:text="@string/luiz_enrique"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/luiz_enrique" />
 
                 <CheckBox
                     android:id="@+id/jose"
-                    android:text="@string/jose_mourinho"
-                    style="@style/checkbox_style" />
+                    style="@style/checkbox_style"
+                    android:text="@string/jose_mourinho" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/question_5"
-                android:background="#343434"
-                style="@style/layout_styling">
+                style="@style/layout_styling"
+                android:background="#343434">
 
                 <TextView
+                    style="@style/quiz_number"
                     android:text="@string/quiz_5"
-                    android:textColor="#FFFFFF"
-                    style="@style/quiz_number"/>
+                    android:textColor="#FFFFFF" />
 
                 <View
                     style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
+                    style="@style/layout_textview"
                     android:text="@string/question_5"
-                    android:textColor="#FFFFFF"
-                    style="@style/layout_textview"/>
+                    android:textColor="#FFFFFF" />
 
                 <RadioGroup
                     android:id="@+id/questionFive_radioGroup"
@@ -242,21 +242,21 @@
                     android:orientation="vertical">
 
                     <RadioButton
-                        android:text="@string/tata_martino"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/tata_martino" />
 
                     <RadioButton
-                        android:text="@string/johan_cruff"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/johan_cruff" />
 
                     <RadioButton
-                        android:text="@string/thomas_tuchel"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/thomas_tuchel" />
 
                     <RadioButton
                         android:id="@+id/guardiola"
-                        android:text="@string/pep_guardiola"
-                        style="@style/radio_button" />
+                        style="@style/radio_button"
+                        android:text="@string/pep_guardiola" />
 
                 </RadioGroup>
 
@@ -265,10 +265,10 @@
             <Button
                 android:layout_width="106dp"
                 android:layout_height="64dp"
-                android:padding="8dp"
                 android:layout_gravity="center"
-                android:text="Submit"
-                android:onClick="submitButton"/>
+                android:onClick="submitButton"
+                android:padding="8dp"
+                android:text="Submit" />
 
 
         </LinearLayout>
