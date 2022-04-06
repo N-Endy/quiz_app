@@ -65,6 +65,22 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Question 4 method
+     */
+    public void questionFour() {
+        CheckBox arragones = findViewById(R.id.arragones);
+        CheckBox pep = findViewById(R.id.pep);
+        CheckBox enrique = findViewById(R.id.enrique);
+        CheckBox jose = findViewById(R.id.jose);
+
+        if (!arragones.isChecked() && !pep.isChecked() && !enrique.isChecked() && !jose.isChecked()) {
+            Toast.makeText(this,"Please select an option for question 4",Toast.LENGTH_SHORT).show();
+        } else if (arragones.isChecked() && jose.isChecked()) {
+            totalCorrectAnswer += 1;
+        }
+    }
+
 
     /**
      * Submit Button Method
@@ -74,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         questionOne();
         questionTwo();
         questionThree();
+        questionFour();
         Log.i("Main Activity", "submitButton: " + totalCorrectAnswer);
         Toast.makeText(this,"You scored " + totalCorrectAnswer + " out of 5",Toast.LENGTH_SHORT).show();
     }
