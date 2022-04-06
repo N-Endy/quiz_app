@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
      * Question 3 Method
      */
     public  void questionThree() {
-        EditText editText = findViewById(R.id.edit_text_view);
+        EditText editText = findViewById(R.id.question3_edit_text_view);
         String answer = editText.getText().toString().toLowerCase(Locale.ROOT);
         if (answer.matches("")) {
             Toast.makeText(this,"Please write an answer for question 3",Toast.LENGTH_SHORT).show();
