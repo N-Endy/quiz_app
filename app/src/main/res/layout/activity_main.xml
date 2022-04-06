@@ -254,7 +254,7 @@
                         android:text="@string/thomas_tuchel" />
 
                     <RadioButton
-                        android:id="@+id/guardiola"
+                        android:id="@+id/question5_option4_guardiola"
                         style="@style/radio_button"
                         android:text="@string/pep_guardiola" />
 

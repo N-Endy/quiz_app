@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void questionFive() {
         RadioGroup radioGroup = findViewById(R.id.questionFive_radioGroup);
-        RadioButton radioButton = findViewById(R.id.guardiola);
+        RadioButton radioButton = findViewById(R.id.question5_option4_guardiola);
         if (radioGroup.getCheckedRadioButtonId() == -1) {
             Toast.makeText(this,"Please select an option for question 5",Toast.LENGTH_SHORT).show();
         } else if (radioButton.isChecked()) {
