@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Styling for XML elements -->
+    <style name="layout_styling">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
 </resources>
