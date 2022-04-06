@@ -68,9 +68,7 @@
                     style="@style/quiz_number"/>
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
@@ -114,9 +112,7 @@
                     style="@style/quiz_number"/>
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/view_style"
                     android:background="#343434" />
 
                 <TextView
@@ -157,9 +153,7 @@
                     style="@style/quiz_number"/>
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
@@ -189,9 +183,7 @@
                     style="@style/quiz_number"/>
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/view_style"
                     android:background="#343434" />
 
                 <TextView
@@ -232,9 +224,7 @@
                     style="@style/quiz_number"/>
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/view_style"
                     android:background="#989393" />
 
                 <TextView
