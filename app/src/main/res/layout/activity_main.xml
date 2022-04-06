@@ -123,22 +123,22 @@
                     android:textColor="#000000" />
 
                 <CheckBox
-                    android:id="@+id/messi"
+                    android:id="@+id/question2_optionOne_messi"
                     style="@style/checkbox_style"
                     android:text="@string/lionel_messi" />
 
                 <CheckBox
-                    android:id="@+id/xavi"
+                    android:id="@+id/question2_optionTwo_xavi"
                     style="@style/checkbox_style"
                     android:text="@string/xavi_hernandez" />
 
                 <CheckBox
-                    android:id="@+id/neymar"
+                    android:id="@+id/question2_optionThree_neymar"
                     style="@style/checkbox_style"
                     android:text="@string/neymar_jr" />
 
                 <CheckBox
-                    android:id="@+id/suarez"
+                    android:id="@+id/question2_optionFour_suarez"
                     style="@style/checkbox_style"
                     android:text="@string/luiz_suarez" />
 

@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
      * Question 2 Method
      */
     public void questionTwo() {
-        CheckBox messi = findViewById(R.id.messi);
-        CheckBox neymar = findViewById(R.id.neymar);
-        CheckBox suarez = findViewById(R.id.suarez);
-        CheckBox xavi = findViewById(R.id.xavi);
+        CheckBox messi = findViewById(R.id.question2_optionOne_messi);
+        CheckBox xavi = findViewById(R.id.question2_optionTwo_xavi);
+        CheckBox neymar = findViewById(R.id.question2_optionThree_neymar);
+        CheckBox suarez = findViewById(R.id.question2_optionFour_suarez);
 
         if (!messi.isChecked() && !neymar.isChecked() && !suarez.isChecked() && !xavi.isChecked()) {
             Toast.makeText(this,"Please select an option for question 2",Toast.LENGTH_SHORT).show();
